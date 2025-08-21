@@ -131,7 +131,7 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server listening on http://localhost:${PORT}`);
 });
-import mongoose from "mongoose";
+
 import dotenv from "dotenv";
 
 dotenv.config();
